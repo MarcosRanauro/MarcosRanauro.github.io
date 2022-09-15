@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(0, 184, 229);
+  }
+  h1{
+    font-family: fantasy;
+  }
+  .font-texto{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .primeiro {
+    font-size: 20px;
+  }
+  .tamanho-botoes{
+    padding: 15px 30px;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 50%;
+    line-height: 60px;
+  }
+  .pictures{
+    border-radius: 50%;
+  }
