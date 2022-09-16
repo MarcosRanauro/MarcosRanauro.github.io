@@ -1,10 +1,18 @@
+
+*{
+  margin: 0;
+  
+}
+
 body{
-    background-color: rgb(210, 254, 232);
+    background-color: rgb(148, 161, 135);
   }
   h1, h3{
     font-family: fantasy;
     padding: 10px;
-    background-color: grey;
+    background-color: rgb(41, 82, 74);
+    width: 40%;
+    
     
     
 
@@ -18,18 +26,33 @@ body{
   }
   .tamanho-botoes{
     padding: 2px 2px;
-    background-color: grey;
     text-decoration: none;
     line-height: 22px;
   }
   .pictures{
     border-radius: 50%;
     width: 275px;
+    margin-left: 20px;
   
   }
 
   .descricao{
     font-family: fantasy;
     font-size: 15px;
-    list-style-type:disc;
+    list-style-type: disc;
   }
+
+  #paragrafo1{
+    margin-left: 20px;
+    width: 40%;
+  }
+
+  #mim{
+    width: 15%;
+  }
+
+  #lists{
+    width: 80%;
+  }
+    
+    
