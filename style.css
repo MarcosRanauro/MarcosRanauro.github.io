@@ -6,15 +6,17 @@
 
 body{
     background-color: rgb(148, 161, 135);
+    padding: 1%;
+  }
+
+  .header {
+    text-align: center;
   }
   h1, h3{
     font-family: fantasy;
     padding: 10px;
     background-color: rgb(41, 82, 74);
-    width: 40%;
-    
-    
-    
+    width: 40%;    
 
   }
   .font-texto{
@@ -22,7 +24,7 @@ body{
   }
   .primeiro {
     font-size: 20px;
-    /* list-style-image: url('download.png'); */
+    
   }
   .tamanho-botoes{
     padding: 2px 2px;
@@ -33,6 +35,10 @@ body{
     border-radius: 50%;
     width: 275px;
     margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0.5%;
+    background-color: rgb(41, 82, 74);
   
   }
 
