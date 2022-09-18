@@ -1,64 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
-*{
-  margin: 0;
-  
+* {
+    margin: 0;
 }
 
-body{
+body {
     background-color: rgb(148, 161, 135);
-    padding: 1%;
-  }
-
-  .header {
-    text-align: center;
-  }
-  h1, h3{
-    font-family: fantasy;
-    padding: 10px;
-    background-color: rgb(41, 82, 74);
-    width: 40%;    
-
-  }
-  .font-texto{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  .primeiro {
-    font-size: 20px;
+    padding: 0.1%;
     
-  }
-  .tamanho-botoes{
-    padding: 2px 2px;
-    text-decoration: none;
-    line-height: 22px;
-  }
-  .pictures{
+}
+
+.nome {
+    text-align: center;
+    background-color: rgb(41, 82, 74);
+    color: antiquewhite;
+    font-family: roboto mono;
+    
+}
+
+#foto {
     border-radius: 50%;
     width: 275px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0.5%;
+    position: absolute;
+    right: 40%;
+    top: 7%;
+    padding: 0.8%;
     background-color: rgb(41, 82, 74);
-  
-  }
+}
 
-  .descricao{
-    font-family: fantasy;
-    font-size: 15px;
-    list-style-type: disc;
-  }
-
-  #paragrafo1{
-    margin-left: 20px;
-    width: 40%;
-  }
-
-  #mim{
-    width: 15%;
-  }
-
-  #lists{
-    width: 80%;
-  }
+.texto {
+    position: absolute;
+    top: 400px;
+    font-family: share tech;
+    font-size: 20px;
+    line-height: 30px;
+    right: 55%;
+    text-decoration: none;
     
-    
+}
+
+.tagsh3 {
+    padding: 10px;
+    background-color: rgb(41, 82, 74);
+    color: antiquewhite;
+}
+
+p {
+    padding: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: share tech;
+}
