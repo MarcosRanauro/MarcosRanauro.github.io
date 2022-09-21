@@ -11,39 +11,80 @@ body {
     
 }
 
-.nome {
+.header {
     text-align: center;
     background-color: rgb(41, 82, 74);
     color: antiquewhite;
     font-family: roboto mono;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1;    
+}
+
+.nav {
+  display: inline-block;
+  top: 45px;
+  position: fixed;
+  background-color: rgb(165, 174, 158);
+  width: 100%;
+  z-index: 2;
+  font-family: roboto mono;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 #foto {
-    border-radius: 50%;
+    border-radius: 40%;
     width: 275px;
     position: absolute;
-    right: 40%;
-    top: 7%;
+    display: inline-block;
+    top: 13%;
     padding: 0.8%;
+    margin-left: 5px;
     background-color: rgb(41, 82, 74);
 }
 
-.texto {
+.sobremim {
+  background-color: rgb(165, 174, 158);
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  top: 17%;
+  left: 25%;
+  font-size: 30px;
+}
+
+.informacoes {
     position: absolute;
-    top: 400px;
-    font-family: share tech;
-    font-size: 20px;
-    line-height: 30px;
-    right: 55%;
-    text-decoration: none;
-    
+    display: inline-block;
+    top: 17%;
+    left: 77%;
+    margin-right: 10px;
+    font-size: 25px;
 }
 
-.tagsh3 {
-    padding: 10px;
-    background-color: rgb(41, 82, 74);
-    color: antiquewhite;
+.hard{
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  font-size: 30px;
+}
+
+.soft{
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 30px;
+}
+
+.rodape {
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  background-color: rgb(165, 174, 158);
+  width: 100%;
 }
 
 p {
@@ -56,7 +97,7 @@ a {
     font-family: share tech;
 }
 
-ul {
+/* ul {
     list-style-image: url(foguete2.gif);
-}
+} */
 
