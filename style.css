@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: rgb(148, 161, 135);
     padding: 0.1%;
+    background-color: rgb(165, 174, 158);
     
 }
 
@@ -23,9 +23,9 @@ body {
 
 .nav {
   display: inline-block;
-  top: 45px;
+  top: 44px;
   position: fixed;
-  background-color: rgb(165, 174, 158);
+  background-color: rgb(41, 82, 74);
   width: 100%;
   z-index: 2;
   font-family: roboto mono;
@@ -46,45 +46,64 @@ body {
 }
 
 .sobremim {
-  background-color: rgb(165, 174, 158);
+  background-color: rgb(41, 82, 74);
   position: absolute;
   display: inline-block;
   width: 50%;
-  top: 17%;
-  left: 25%;
+  top: 25%;
+  left: 35%;
   font-size: 30px;
+  color: white;
 }
 
 .informacoes {
     position: absolute;
     display: inline-block;
-    top: 17%;
-    left: 77%;
+    top: 70%;
     margin-right: 10px;
     font-size: 25px;
+    border-style: double;
+    border-radius: 15%;
+    border-color:  rgb(41, 82, 74);
+
 }
 
 .hard{
   display: inline-block;
   position: absolute;
-  top: 70%;
+  top: 100%;
   font-size: 30px;
+  font-weight: bold;
+}
+
+div.hard li:nth-of-type(odd){
+  background-color: rgb(41, 82, 74);
+  color: white;
 }
 
 .soft{
   display: inline-block;
   position: absolute;
-  top: 70%;
+  top: 100%;
   left: 50%;
   font-size: 30px;
+  font-weight: bold;
+}
+
+div.soft li:nth-of-type(odd){
+  background-color: rgb(41, 82, 74);
+  color: white;
 }
 
 .rodape {
   display: inline-block;
   position: absolute;
-  top: 800px;
-  background-color: rgb(165, 174, 158);
+  top: 145%;
+  background-color: rgb(41, 82, 74);
   width: 100%;
+  font-size: 30px;
+  color: white;
+  font-style: italic;
 }
 
 p {
@@ -93,8 +112,9 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color:white;
     font-family: share tech;
+    font-style: oblique;
 }
 
 /* ul {
