@@ -1,85 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Meu portfólio web</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-  </head>
-  <body>
-    
-    <header class="header">
-    
-    </header>
-    <section class="nav">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+  <main id="biography">  
+  <header>
+    <img src="tech1.jpg" alt="">    
     <nav>
-      <a href="">Home</a>
-      <a href="marcosranauro@hotmail.com" target="_blank">Contato</a>
-      <a href="https://www.linkedin.com/in/marcosranauro/" target="_blank">Linkedin</a>
-      <a href="https://www.instagram.com/marcosranauro/" target="_blank">Instagram</a>
-      <a href="https://www.facebook.com/marcos.ranauro" target="_blank">Facebook</a>
+      <a href="https://marcosranauro.github.io/">Home</a>
+      <a href="#biography">Bio</a>
+      <a href="#information2">Informações</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#contacts">Contatos</a>
     </nav>
+    </header>
+
+    <section class="bio">
+      <img id="foto" src="marcos.jpeg" alt="Foto de Marcos" width="300px">
+        
+      <p>
+        Aos 15 anos de idade tive o primeiro contato com um computador e desde então não parei mais.
+        Sou usuário assíduo de tecnologia, sempre buscando me atualizar da melhor maneira possível.
+        <p id="information2"></p>
+      </p>
     </section>
-    <img id="foto" src="marcos.jpeg" alt="Foto de Marcos" width="300px">
     
-    <main>
-      <!-- <h2 id="topo" class="texto">Marcos Vinicius Ranauro Correa</h2> -->
-      <article class="sobremim">
-        <p>
-          Aos 15 anos de idade tive o primeiro contato com um computador e desde então não parei mais.
-          Sou usuário assíduo de tecnologia, sempre buscando me atualizar da melhor maneira possível.
-        </p>
-      </article>
-
-      <button id="techs">Clique aqui pra descobrir minhas Techs favoritas</button>;
-      
-      <ul class="container">
-        <li class="tech" id="first-li"></li>
-        <li id="second-li"></li>
-        <li class="tech3" id="third-li"></li>
-      </ul>
-
-      <article class="informacoes" id="minhaDescricao">
+    <section class="information">
       <ul>
-        <li>Nome: Marcos Vinicius Ranauro Correa</li>
-        <li>Localidade: Nova Iguaçu - RJ </li> 
-        <li>Graduação: Cursando Engenharia da Computação</li> 
-        <li>Capacitação: <a href="https://www.betrybe.com/" target="_blank">Trybe</a></li>
-      </ul>
-      </article>
-      
-    <section id="habilidades">
-    <div class="hard">
-    <h3>Hard Skills:</h3> 
-    <ol>
-        <li>Montagem e manutenção de computadores</li>
-        <li>Instalação e manutenção de sofwares</li>
-        <li>Sistemas PDV</li>
-        <li>HTML</li> 
-        <li>CSS</li> 
-    </ol>
-    </div>
-    </section>
-    <section id="habilidades">
-    <div class="soft">
-    <h3>Soft Skills:</h3>
-    <ol>
-      <li>Fácil aprendizagem</li>
-      <li>Empatia</li>
-      <li>Centrado</li>
-      <li>Foco</li>
-      <li>Saber escutar</li>
-    </ol>
-    </div>
+        <li><i class="bi bi-robot"></i> Marcos Vinicius Ranauro Correa</li>
+        <li><i class="bi bi-pin-map-fill"></i> Nova Iguaçu - RJ</li> 
+        <li><i class="bi bi-mortarboard"></i> Cursando Engenharia da Computação</li> 
+        <li> <i class="bi bi-incognito"></i> Capacitação: <a href="https://www.betrybe.com/" target="_blank">Trybe</a></li>
+        <p id="skills"></p>
+      </ul>     
     </section>
 
-    <footer class="rodape">
-    <h5>Indice</h5>
-      <a href="#foto">Foto</a><br>
-      <a href="#minhaDescricao">Sobre mim</a><br>
-      <a href="#habilidades">Lista de habilidades</a><br>
-    </footer>
-    </main>
-    <script src="script.js"></script>
-  </body>
+    <section class="habilidades">
+        <ol>
+            <h3>Hard Skills:</h3>
+            <li>Montagem e manutenção de computadores</li>
+            <li>Instalação e manutenção de sofwares</li>
+            <li>Sistemas PDV</li>
+            <li>HTML</li> 
+            <li>CSS</li> 
+        </ol>
+        
+        <ol>
+          <h3>Soft Skills:</h3>  
+          <li>Fácil aprendizagem</li>
+          <li>Empatia</li>
+          <li>Centrado</li>
+          <li>Foco</li>
+          <li>Saber escutar</li>
+        </ol>
+        </section>
+
+        <footer id="contacts">
+          <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/marcosranauro/" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/marcosranauro/" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/marcos.ranauro" target="_blank">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="marcosranauro@hotmail.com" target="_blank">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </li>
+          </ul>
+          <p>Todos os direitos reservados</p>
+        </footer>
+        </main>
+</body>
 </html>
